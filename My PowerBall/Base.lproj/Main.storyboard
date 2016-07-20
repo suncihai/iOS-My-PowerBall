@@ -1,25 +1,261 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hrM-4E-Omr">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_PowerBall" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96E-OJ-abp" userLabel="Box1">
+                                <rect key="frame" x="25" y="284" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N0w-2j-7jo" userLabel="Box2">
+                                <rect key="frame" x="92" y="284" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5dL-yg-s3X" userLabel="Box3">
+                                <rect key="frame" x="160" y="284" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zAX-OT-fh1" userLabel="Box4">
+                                <rect key="frame" x="228" y="284" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fMF-YS-qMQ" userLabel="Box5">
+                                <rect key="frame" x="300" y="284" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6vo-iG-QvE" userLabel="Box6">
+                                <rect key="frame" x="160" y="370" width="55" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7H3-5m-1Yh" userLabel="WhiteBall1">
+                                <rect key="frame" x="31" y="290" width="43" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj5-14-Kqw" userLabel="WhiteBall2">
+                                <rect key="frame" x="98" y="290" width="43" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vd3-8Z-eft" userLabel="WhiteBall3">
+                                <rect key="frame" x="166" y="290" width="43" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T1P-8A-69p" userLabel="WhiteBall4">
+                                <rect key="frame" x="234" y="290" width="43" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yrD-kr-dw7" userLabel="WhiteBall5">
+                                <rect key="frame" x="306" y="290" width="43" height="43"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-O5-Wjx" userLabel="RedBall">
+                                <rect key="frame" x="166" y="376" width="43" height="43"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tci-aa-3i8">
+                                <rect key="frame" x="137" y="457" width="100" height="30"/>
+                                <state key="normal" backgroundImage="RollButtion.png"/>
+                                <connections>
+                                    <action selector="GetBallNumber" destination="BYZ-38-t0r" eventType="touchUpInside" id="jiY-uX-Iyv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYo-NJ-97E">
+                                <rect key="frame" x="255" y="457" width="100" height="30"/>
+                                <state key="normal" backgroundImage="ClearButton.png"/>
+                                <connections>
+                                    <action selector="ClearBall" destination="BYZ-38-t0r" eventType="touchUpInside" id="oq5-Ls-25Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDj-4u-Zih" userLabel="Save">
+                                <rect key="frame" x="20" y="457" width="100" height="30"/>
+                                <state key="normal" backgroundImage="SaveButton.png"/>
+                                <connections>
+                                    <action selector="SaveBall" destination="BYZ-38-t0r" eventType="touchUpInside" id="KGy-Ca-BGW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmq-Z3-oxt">
+                                <rect key="frame" x="25" y="116" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="240" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XA7-Dt-UHV">
+                                <rect key="frame" x="313" y="116" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sum of White Balls" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHN-9b-bwz">
+                                <rect key="frame" x="115" y="80" width="144" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuI-AF-nFC" userLabel="OddNumber">
+                                <rect key="frame" x="29" y="211" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6o-ea-npw" userLabel="EvenNumber">
+                                <rect key="frame" x="317" y="211" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jbq-Z8-nw9" customClass="CustomUISlider" customModule="My_PowerBall" customModuleProvider="target">
+                                <rect key="frame" x="78" y="202" width="211" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Pun-pI-Ud6"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Numbers of Odd and Even" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sF7-cY-a66">
+                                <rect key="frame" x="89" y="162" width="202" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CK3-Y5-fSO" userLabel="arrow1">
+                                <rect key="frame" x="29" y="250" width="45" height="32"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KtG-8s-KMI" userLabel="arrow2">
+                                <rect key="frame" x="96" y="250" width="45" height="32"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yw0-K2-6bY" userLabel="arrow3">
+                                <rect key="frame" x="164" y="250" width="45" height="32"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0C-RB-Hqm" userLabel="arrow4">
+                                <rect key="frame" x="232" y="250" width="45" height="32"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bit-ZD-N9T" userLabel="arrow5">
+                                <rect key="frame" x="304" y="250" width="45" height="32"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="reZ-0n-7fj">
+                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="rbv-X0-1y7">
+                            <connections>
+                                <segue destination="9fJ-ra-B7U" kind="show" identifier="ToSavedList" id="4e0-RT-Cad"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="Box1" destination="96E-OJ-abp" id="2nW-Ni-qER"/>
+                        <outlet property="Box2" destination="N0w-2j-7jo" id="teL-tM-cNJ"/>
+                        <outlet property="Box3" destination="5dL-yg-s3X" id="klg-VS-6ZP"/>
+                        <outlet property="Box4" destination="zAX-OT-fh1" id="Yz3-Px-ktR"/>
+                        <outlet property="Box5" destination="fMF-YS-qMQ" id="Ep0-fx-T4M"/>
+                        <outlet property="Box6" destination="6vo-iG-QvE" id="P0W-MP-FH8"/>
+                        <outlet property="CLearButton" destination="lYo-NJ-97E" id="Ehc-ae-HX9"/>
+                        <outlet property="EvenNumberLabel" destination="J6o-ea-npw" id="p8q-Ga-lNI"/>
+                        <outlet property="MaxValueLabel" destination="XA7-Dt-UHV" id="bLM-ou-8LX"/>
+                        <outlet property="MinValueLabel" destination="Jmq-Z3-oxt" id="yP4-jS-jxu"/>
+                        <outlet property="OddNumberLabel" destination="LuI-AF-nFC" id="uSd-um-xen"/>
+                        <outlet property="RedBall" destination="uQ2-O5-Wjx" id="x0G-wl-zmG"/>
+                        <outlet property="RollButton" destination="tci-aa-3i8" id="WMe-eZ-ytK"/>
+                        <outlet property="SaveButton" destination="cDj-4u-Zih" id="eKP-5d-3aC"/>
+                        <outlet property="WhiteBall1" destination="7H3-5m-1Yh" id="QtU-VP-kFh"/>
+                        <outlet property="WhiteBall2" destination="vj5-14-Kqw" id="f7M-Tp-gFN"/>
+                        <outlet property="WhiteBall3" destination="vd3-8Z-eft" id="pol-jL-dL7"/>
+                        <outlet property="WhiteBall4" destination="T1P-8A-69p" id="zQK-Eh-B5X"/>
+                        <outlet property="WhiteBall5" destination="yrD-kr-dw7" id="3bG-Fp-q2i"/>
+                        <outlet property="arrow1" destination="CK3-Y5-fSO" id="xNL-7r-ohX"/>
+                        <outlet property="arrow2" destination="KtG-8s-KMI" id="idl-oD-IRt"/>
+                        <outlet property="arrow3" destination="yw0-K2-6bY" id="Kqp-n7-ZMl"/>
+                        <outlet property="arrow4" destination="W0C-RB-Hqm" id="8S2-Wc-MlP"/>
+                        <outlet property="arrow5" destination="bit-ZD-N9T" id="Dax-hR-pog"/>
+                        <outlet property="slider" destination="Jbq-Z8-nw9" id="vaB-2e-eAD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1099.5" y="287.5"/>
+        </scene>
+        <!--Saved Ball View Controller-->
+        <scene sceneID="x50-jB-2Tf">
+            <objects>
+                <tableViewController id="9fJ-ra-B7U" customClass="SavedBallViewController" customModule="My_PowerBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="TbV-K8-gZj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="70" id="iFf-Uf-knU" customClass="SavedBallTableViewCell" customModule="My_PowerBall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iFf-Uf-knU" id="WlU-GM-msu">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5MH-eC-PNt" userLabel="WhiteBall1">
+                                            <rect key="frame" x="10" y="9" width="50" height="50"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K2E-2j-mXU" userLabel="WhiteBall2">
+                                            <rect key="frame" x="68" y="9" width="50" height="50"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QDo-TS-5UO" userLabel="WhiteBall3">
+                                            <rect key="frame" x="126" y="8" width="50" height="50"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ix8-EQ-ios" userLabel="WhiteBall4">
+                                            <rect key="frame" x="184" y="9" width="50" height="50"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hBI-O0-QW2" userLabel="WhiteBall5">
+                                            <rect key="frame" x="242" y="8" width="50" height="50"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uxg-Ki-n3P" userLabel="RedBall">
+                                            <rect key="frame" x="313" y="8" width="50" height="50"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.1123466526" green="0.65604354980000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="SavedRedBallImage" destination="uxg-Ki-n3P" id="ybW-VV-ZeA"/>
+                                    <outlet property="SavedWhiteBall1Image" destination="5MH-eC-PNt" id="BHB-2y-RYf"/>
+                                    <outlet property="SavedWhiteBall2Image" destination="K2E-2j-mXU" id="mve-4V-lHz"/>
+                                    <outlet property="SavedWhiteBall3Image" destination="QDo-TS-5UO" id="JXx-mu-Qbr"/>
+                                    <outlet property="SavedWhiteBall4Image" destination="Ix8-EQ-ios" id="ooQ-CT-1hE"/>
+                                    <outlet property="SavedWhiteBall5Image" destination="hBI-O0-QW2" id="AGE-di-hbf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="9fJ-ra-B7U" id="8IK-So-JKl"/>
+                            <outlet property="delegate" destination="9fJ-ra-B7U" id="tsR-fj-Fi7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="saU-QW-9Gg"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wxW-tb-V8R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553.5" y="287.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sfU-ew-9Bv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hrM-4E-Omr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CE8-Ov-sOW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RBw-Fi-yz5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C8R-kP-WJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="576.5" y="287.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ClearButton.png" width="309" height="86"/>
+        <image name="RollButtion.png" width="309" height="86"/>
+        <image name="SaveButton.png" width="309" height="87"/>
+    </resources>
 </document>
